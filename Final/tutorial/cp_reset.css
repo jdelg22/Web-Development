@@ -19,7 +19,7 @@ article, aside, figure, figcaption, footer, hgroup, header, section, nav {
 }
 /* Set the default page element styles */
 
-body *{
+body * {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 100%;
 	font-weight: inherit;
@@ -30,7 +30,7 @@ body *{
 	vertical-align: baseline;
 }
 
-/* Temporarily hide the page sections */
+/* Temporarily hide the page sections 
 
 nav.horizontalNAV, #president, nav.verticalNAV, #story, header, aside, footer {
 	display: none;
