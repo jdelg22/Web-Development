@@ -136,7 +136,53 @@ nav.horizontalNAV li a:hover {
 	width: 49%;
 }
 
-#story article hgroup {
-	background: 
+#story figure img {
+	border: 5px inset rgb(227, 168, 145);
+	display: block;
+	margin: 30px auto 10px;
+	width: 80%;
 }
-/* comment
+
+#story figure figcaption {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+}
+
+#story article hgroup {
+	background: rgb(97, 30, 2) url(rawlings.png) bottom right no-repeat;
+
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+
+	color: rgb(145, 98, 78);
+	color: rgba(255, 255, 255, 0.3);
+
+	height: 90px;
+	text-indent: 10px;
+}
+
+#story article hgroup h1 {
+	font-size: 158%;
+	letter-spacing: 3px;
+}
+
+#story article hgroup h2 {
+	font-size: 105%;
+}
+
+#story article p {
+	font-size: 80%;
+	margin: 10px;
+}
+
+#story article ul li {
+	font-size: 80%;
+	margin: 15px 25px;
+}
+
+#story article ul li strong {
+	font-weight: bold;
+}
